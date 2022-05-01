@@ -25,6 +25,12 @@
   position: absolute;
   bottom: 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-btn span {
+  margin-left: 7px;
 }
 .cart-btn:hover {
   background-color: orange;

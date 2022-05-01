@@ -9,3 +9,41 @@
   font-weight: bolder;
   border-bottom: 2px solid tomato;
 }
+.cart button {
+  display: block;
+}
+.cart .delete-btn {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ff3030;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}
+.cart .delete-btn:hover {
+  background-color: #df3e3e;
+}
+.cart .review-btn {
+  width: 70%;
+  margin: 0 auto;
+  background: #ff9900;
+  border: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}
+.cart .review-btn:hover {
+  background-color: #f0ac46;
+}
