@@ -12,10 +12,5 @@
 .cart-container {
   border: 1px solid orange;
   background-color: rgb(238, 217, 179);
-  padding: 5px;
-}
-.cart-container h1 {
-  text-align: center;
-  font-weight: bolder;
-  border-bottom: 2px solid tomato;
+  padding: 15px 7px;
 }
